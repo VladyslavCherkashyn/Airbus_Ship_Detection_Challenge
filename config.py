@@ -1,0 +1,16 @@
+BATCH_SIZE = 48
+EDGE_CROP = 16
+GAUSSIAN_NOISE = 0.1
+UPSAMPLE_MODE = 'SIMPLE'
+NET_SCALING = (1, 1)
+IMG_SCALING = (3, 3)
+VALID_IMG_COUNT = 900
+MAX_TRAIN_STEPS = 5
+MAX_TRAIN_EPOCHS = 99
+AUGMENT_BRIGHTNESS = False
+
+BASE_DIR = 'airbus-ship-detection'
+TRAIN_DIR = BASE_DIR + '/train_v2/'
+TEST_DIR = BASE_DIR + '/test_v2/'
+
+test_image = ['0e0fb75c9.jpg', '00dc34840.jpg', '00aa79c47.jpg', '0fb27144a.jpg']
